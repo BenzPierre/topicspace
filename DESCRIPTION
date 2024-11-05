@@ -1,0 +1,38 @@
+Package: topicspace
+Type: Package
+Title: Mapping Topic Spaces Combining Latent Dirichlet Allocation with Multiple Correspondence Analysis
+Version: 0.1.0
+Author: Pierre Benz and Anton Grau Larsen
+Maintainer: Pierre Benz <pierre.benz@umontreal.ca>
+Description: The `topicspace` package is designed for social scientists interested in the relationship between discursive and social structures. It provides functions for pre-processing textual data, performing topic modeling, and mapping topic spaces by combining Latent Dirichlet Allocation (LDA) with Multiple Correspondence Analysis (MCA). This package is currently under development.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports: 
+    Matrix,
+    RColorBrewer,
+    dplyr,
+    ggplot2,
+    ggrepel,
+    purrr,
+    soc.ca,
+    tidytext, 
+    tm,
+    epitools,
+    forcats,
+    ggthemes, 
+    graphics,
+    lubridate,
+    paletteer,
+    scales,
+    stats,
+    text2vec,
+    textstem,
+    tibble, 
+    tidyr
+Suggests: 
+    knitr,
+    rmarkdown,
+    tidyverse
+VignetteBuilder: knitr
